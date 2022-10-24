@@ -1,5 +1,5 @@
 
-class Cactus(object):
+class array_mutation(object):
     """This class mutates a given array"""
 
     def __init__(self, a, n):
@@ -62,7 +62,7 @@ def main():
         if not GuaranteedConditions(array, length).conditions():
             print("Invalid inputs")
         else:
-            Cactus(array, length)
+            array_mutation(array, length)
             print(f"Input Array: {array}")
 
         print("-------------------------")
